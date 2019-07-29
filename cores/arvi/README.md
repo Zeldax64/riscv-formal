@@ -1,5 +1,5 @@
 
-riscv-formal proofs for ARVI - Work in Progress
+riscv-formal proofs for ARVI
 ================================
 
 Quickstart guide:
