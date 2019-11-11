@@ -4,7 +4,7 @@ yosys -import
 source ./../../../utils.tcl
 
 # Get rtl recursively
-set sources [findFiles ./../../../arvi/rtl *.v]
+set sources [findFiles ./../../../arvi/rtl *.sv]
 
 # Reading files into yosys
 foreach rtl_source $sources {
