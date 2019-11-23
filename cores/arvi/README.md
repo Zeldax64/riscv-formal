@@ -9,7 +9,7 @@ First install Yosys, SymbiYosys, and the solvers. See
 for instructions.  Then download the core, generate the formal checks and run them:
 
 ```
-https://github.com/Zeldax64/arvi.git
+git clone https://github.com/Zeldax64/arvi.git
 python3 ../../checks/genchecks.py
 make -C checks -j$(nproc)
 ```
